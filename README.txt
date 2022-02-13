@@ -1,0 +1,1 @@
+java --module-path javafx-sdk-15.0.1/lib  --add-modules javafx.base,javafx.controls,javafx.graphics test.Test

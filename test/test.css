@@ -1,0 +1,31 @@
+.root, .hidenBox{
+	-fx-background-color: radial-gradient(focus-angle 30deg, focus-distance 50%, center 50% 50%, radius 40%, reflect, gray 0%, silver 100%);
+	-fx-background-insets: 20;
+	-fx-background-radius: 10;
+	-fx-border-color: linear-gradient(from 0% 0% to 50% 0%, reflect, blue, purple);
+	-fx-border-insets: 20;
+	-fx-border-radius: 10;
+	-fx-border-width: 4;
+	-fx-padding: 5;
+	-fx-spacing: 8;
+}
+#hidenLabel{
+	-fx-text-fill: red;
+	-fx-font-size: 40;
+	-fx-font-style: italic;
+	-fx-font-weight: bolder;
+}
+.vbox{
+	-fx-spacing: 8;
+}
+.myText{
+	-fx-fill: blue;
+}
+.label{
+	-fx-text-fill: purple;
+	-fx-padding: 5 0 0 0;
+}
+.button{
+	-fx-text-fill: red;
+	-fx-text-weight: bold;
+}
